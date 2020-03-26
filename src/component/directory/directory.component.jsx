@@ -53,10 +53,7 @@ class Directory extends Component {
         {this.state.sections.map(({id, ...otherSectionProps}) => (
           <MeauItem key={id} {...otherSectionProps} />
         ))}
-      
       </div> 
-
-
     );
   }
 }
