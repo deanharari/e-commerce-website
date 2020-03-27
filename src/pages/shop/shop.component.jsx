@@ -12,6 +12,7 @@ class ShopPage extends Component {
       collections: SHOP_DATA
     }
   }
+  
   render() {
     const {collections} = this.state
     return (
@@ -20,12 +21,8 @@ class ShopPage extends Component {
           <CollectionPreview key={id} {...otherCollectionProps} />
         ))}
       </div>
-    )
+    );
   }
-
-
-
-
 }
 
 export default ShopPage;

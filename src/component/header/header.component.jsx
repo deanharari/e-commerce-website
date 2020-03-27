@@ -20,6 +20,6 @@ const Header = () => (
       </Link>
     </div>
   </div>
-)
+);
 
 export default Header;

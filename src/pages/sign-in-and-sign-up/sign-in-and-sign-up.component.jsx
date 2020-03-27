@@ -1,6 +1,6 @@
 import React from "react";
 
-import SignIn from "../../component/sign-in/sign-in.component"
+import SignIn from "../../component/sign-in/sign-in.component";
 
 import "./sign-in-and-sign-up.component";
 
