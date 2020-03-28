@@ -2,7 +2,7 @@ import React, { Component } from "react"
 
 import "./directory.styles.scss"
 
-import MeauItem from "../menu-item/meau-item.component";
+import MenuItem from "../menu-item/menu-item.component";
 
 class Directory extends Component {
   constructor () {
@@ -51,7 +51,7 @@ class Directory extends Component {
     return (
       <div className='directory-menu'>
         {this.state.sections.map(({id, ...otherSectionProps}) => (
-          <MeauItem key={id} {...otherSectionProps} />
+          <MenuItem key={id} {...otherSectionProps} />
         ))}
       </div> 
     );
