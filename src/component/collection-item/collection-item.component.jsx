@@ -4,9 +4,9 @@ import "./collection-item.styles.scss";
 
 const CollectionItem = ({ name, price, imageUrl }) => (
   <div className="collection-item">
-    <div 
+    <div
       className="image"
-      style= {{
+      style={{
         backgroundImage: `url(${imageUrl})`
       }}
     />
@@ -14,7 +14,7 @@ const CollectionItem = ({ name, price, imageUrl }) => (
       <span className="name">{name}</span>
       <span className="price">{price}</span>
     </div>
-  </div>  
+  </div>
 );
 
 export default CollectionItem;
